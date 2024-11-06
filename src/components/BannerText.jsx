@@ -8,7 +8,6 @@ const BannerText = ({title,subtitle}) => {
             <p className="text-sm lg:text-lg text-center lg:w-8/12 lg:mx-auto mt-3">
                 {subtitle}
             </p>
-            <button className="border text-purple-500 bg-white py-1 px-4 rounded-full mt-5 font-semibold">Shop Now</button>
             
         </div>
     );

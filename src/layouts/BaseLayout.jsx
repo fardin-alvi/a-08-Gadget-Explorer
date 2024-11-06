@@ -7,6 +7,7 @@ import { useLocation, useLoaderData } from 'react-router-dom';
 import Card from '../components/Card';
 import Cards from '../components/Cards';
 import Header from '../components/Header';
+import GadgetsDetails from '../components/GadgetsDetails';
 const BaseLayout = () => {
     const location = useLocation()
     const homepath = location.pathname === '/'
@@ -15,7 +16,7 @@ const BaseLayout = () => {
         <div className='lg:w-11/12 lg:mx-auto'>
             <Navbar />
             <Outlet />
-            {
+            {/* {
                 homepath ? <BannerImage /> : ""
             }
             {
@@ -24,10 +25,11 @@ const BaseLayout = () => {
             {
                 homepath ?
                     <div className='flex gap-x-3 mt-4'>
-                        <Cards />
+                        <Cards products={products} />
                         <Card />
                     </div> : ""
-            }
+            } */}
+            
             <Footer />
             
         </div>

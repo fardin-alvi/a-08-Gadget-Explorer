@@ -7,7 +7,7 @@
     "price": 1200,
     "description": "Dell XPS 13 is a high-performance laptop with a stunning 13.3-inch display and Intel Core i7 processor.",
     "Specification": ["Intel Core i7", "16GB RAM", "512GB SSD", "13.3-inch display"],
-    "availability": true,
+    "availability": "In Stoke",
     "rating": 4.8
   },
   {
@@ -18,18 +18,18 @@
     "price": 2500,
     "description": "Apple MacBook Pro with M1 chip delivers incredible performance with 16GB RAM and 1TB SSD.",
     "Specification": ["Apple M1 Chip", "16GB RAM", "1TB SSD", "14-inch Retina Display"],
-    "availability": true,
+    "availability": "In Stoke",
     "rating": 4.9
   },
   {
     "product_id": "LAP1003",
     "product_title": "HP Spectre x360",
-    "product_image": "https://i.ibb.co.com/r48cp1J/HP-Spectre-x360.jpg",
+    "product_image": "https://i.ibb.co.com/yVsWNyx/HP-Spectre-x360.jpg",
     "category": "Laptop",
     "price": 1400,
     "description": "HP Spectre x360 2-in-1 laptop with a 4K touchscreen and a sleek design.",
     "Specification": ["Intel Core i7", "16GB RAM", "512GB SSD", "13.3-inch 4K Display"],
-    "availability": true,
+    "availability": "In Stoke",
     "rating": 4.7
   },
   {
@@ -40,7 +40,7 @@
     "price": 1800,
     "description": "Lenovo ThinkPad X1 Carbon is a business laptop with long battery life and strong performance.",
     "Specification": ["Intel Core i7", "16GB RAM", "1TB SSD", "14-inch FHD Display"],
-    "availability": false,
+    "availability": "Out of Stoke",
     "rating": 4.5
   },
   {
@@ -51,7 +51,7 @@
     "price": 1100,
     "description": "Asus ZenBook 14 is a thin and lightweight laptop with powerful performance.",
     "Specification": ["Intel Core i5", "8GB RAM", "256GB SSD", "14-inch FHD Display"],
-    "availability": true,
+    "availability": "In Stoke",
     "rating": 4.6
   },
   {
@@ -62,7 +62,7 @@
     "price": 899.99,
     "description": "Lightweight and powerful, perfect for everyday use.",
     "Specification": ["AMD Ryzen 5","4GB RAM","1 TB SSD","13.3-inch Retina display"],
-    "availability": true,
+    "availability": "In Stoke",
     "rating": 4.6
   },
   {
@@ -73,18 +73,18 @@
     "price": 999,
     "description": "Apple iPhone 13 Pro with A15 Bionic chip, 5G, and a Pro camera system.",
     "Specification": ["A15 Bionic Chip", "128GB Storage", "6.1-inch Super Retina XDR Display"],
-    "availability": true,
+    "availability": "In Stoke",
     "rating": 4.9
   },
   {
     "product_id": "PHN2002",
     "product_title": "Samsung Galaxy S21",
-    "product_image": "https://i.ibb.co.com/LQ8SCZt/Samsung-Galaxy-S21.jpg",
+    "product_image": "https://i.ibb.co.com/PFmdJmL/Samsung-Galaxy-S21.jpg",
     "category": "Phone",
     "price": 799,
     "description": "Samsung Galaxy S21 with Exynos 2100, 5G connectivity, and a 120Hz display.",
     "Specification": ["Exynos 2100", "128GB Storage", "6.2-inch Dynamic AMOLED Display"],
-    "availability": false,
+    "availability": "Out of Stoke",
     "rating": 4.6
   },
   {
@@ -95,7 +95,7 @@
     "price": 699,
     "description": "Google Pixel 6 with Tensor chip, 5G, and a top-tier camera experience.",
     "Specification": ["Google Tensor", "128GB Storage", "6.4-inch AMOLED Display"],
-    "availability": true,
+    "availability": "In Stoke",
     "rating": 4.7
   },
   {
@@ -106,18 +106,18 @@
     "price": 499,
     "description": "Apple Watch Series 7 with advanced health tracking and a larger display.",
     "Specification": ["Blood Oxygen Sensor", "ECG", "GPS", "Always-On Retina Display"],
-    "availability": true,
+    "availability": "In Stoke",
     "rating": 4.8
   },
   {
     "product_id": "SWT3002",
-    "product_title": "Samsung Galaxy Watch 4",
-    "product_image": "https://i.ibb.co.com/wQvVhhq/Samsung-Galaxy-Watch-4.jpg",
+    "product_title": "Samsung Galaxy Watch4",
+    "product_image": "https://i.ibb.co.com/SnwmWW4/Samsung-Galaxy-Watch-4.jpg",
     "category": "Smartwatch",
     "price": 349,
     "description": "Samsung Galaxy Watch 4 offers advanced fitness tracking and Wear OS.",
     "Specification": ["Heart Rate Monitor", "Sleep Tracking", "GPS", "AMOLED Display"],
-    "availability": true,
+    "availability": "Out of Stoke",
     "rating": 4.6
   },
   {
@@ -128,40 +128,40 @@
     "price": 179.99,
     "description": "Advanced fitness tracker with built-in GPS.",
     "Specification": ["Heart rate monitoring","Stress management tools","Water-resistant"],
-    "availability": true,
+    "availability": "In Stoke",
     "rating": 4.4
   },
   {
     "product_id": "TAB4001",
     "product_title": "Apple iPad Pro",
-    "product_image": "https://i.ibb.co.com/pjyGVdp/Apple-i-Pad-Pro.jpg",
+    "product_image": "https://i.ibb.co.com/WG9rcs2/Apple-i-Pad-Pro.jpg",
     "category": "Tab",
     "price": 1099,
     "description": "Apple iPad Pro with M1 chip, a 12.9-inch Liquid Retina XDR display, and 5G support.",
     "Specification": ["M1 Chip", "256GB Storage", "12.9-inch Display", "5G Support"],
-    "availability": true,
+    "availability": "In Stoke",
     "rating": 4.9
   },
   {
     "product_id": "TAB4002",
     "product_title": "Samsung Galaxy Tab S7",
-    "product_image": "https://i.ibb.co.com/Jvf2Pbj/Samsung-Galaxy-Tab-S7.jpg",
+    "product_image": "https://i.ibb.co.com/tJb8dyF/Samsung-Galaxy-Tab-S7.jpg",
     "category": "Tab",
     "price": 799,
     "description": "Samsung Galaxy Tab S7 offers a high-quality display and powerful performance for multitasking.",
     "Specification": ["Snapdragon 865+", "128GB Storage", "11-inch LTPS Display", "5G Support"],
-    "availability": true,
+    "availability": "In Stoke",
     "rating": 4.7
   },
   {
     "product_id": "TAB4003",
     "product_title": "Lenovo Tab P11 Pro",
-    "product_image": "https://i.ibb.co.com/Gks8QW6/Lenovo-Tab-P11-Pro.jpg",
+    "product_image": "https://i.ibb.co.com/mzF5mhN/Lenovo-Tab-P11-Pro.jpg",
     "category": "Tab",
     "price": 499,
     "description": "Lenovo Tab P11 Pro features a 11.5-inch OLED display and Dolby Atmos speakers for immersive entertainment.",
     "Specification": ["Snapdragon 730G", "128GB Storage", "11.5-inch OLED Display", "Dolby Atmos Speakers"],
-    "availability": true,
+    "availability": "In Stoke",
     "rating": 4.6
   }
 ]

@@ -6,13 +6,18 @@ import Card from '../components/Card';
 import BannerImage from '../components/Navbar/BannerImage';
 
 const Home = () => {
-    const location = useLocation();
+    // const location = useLocation();
     return (
         <div>
-            <div>
+            {/* <div>
                 {
                     location.pathname === '/' && <Banner />
                 }
+            </div> */}
+            <Banner />
+            <div className='flex gap-x-2'>
+                <Cards/>
+                <Card />
             </div>
 
         </div>
