@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLoaderData, useParams } from 'react-router-dom';
 
 const Gadgets = ({ gadget }) => {
-    const { product_id, product_title, product_image, category, price, description, Specification, availability, rating } = gadget;
+    const { product_id, product_title, product_image, price, description, Specification, availability, rating } = gadget;
     return (
         <div className="card bg-base-100 h-80 shadow-xl">
             <figure className="object-fit">
