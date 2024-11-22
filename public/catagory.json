@@ -1,0 +1,26 @@
+[
+      {
+        "category_id": 1,
+        "category": "All Products"
+      },
+      {
+        "category_id": 2,
+        "category": "Laptop"
+      },
+      {
+        "category_id": 3,
+        "category": "Phone"
+      },
+      {
+        "category_id": 4,
+        "category": "Smart-Watch"
+      },
+      {
+        "category_id": 5,
+        "category": "Tab"
+      },
+      {
+        "category_id": 6,
+        "category": "Accessories"
+      }
+    ]

@@ -16,9 +16,6 @@ const CartGadget = ({ gadget }) => {
 
                 </div>
             </div>
-            <div className='border-1 p-5 rounded-full text-red-500'>
-                <TiDeleteOutline className='text-4xl' />
-            </div>
         </div>
     );
 };

@@ -2,18 +2,17 @@ import React from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { TiShoppingCart } from "react-icons/ti";
 import { FaRegHeart } from "react-icons/fa"; 
-import './Navbar.css'
 const Navbar = () => {
     const navLocation = useLocation()
     const link = <>
-        <NavLink className={navLocation.pathname === '/' ? 'font-bold' : ''} to="/">Home</NavLink>
-        <NavLink className={navLocation.pathname === '/statistics' ? 'font-bold' : ''} to="/statistics">Statistics</NavLink>
-        <NavLink className={navLocation.pathname === '/dashboard' ? 'font-bold' : ''} to="/dashboard">Dashboard</NavLink>
+        <li><NavLink className='text-lg' to="/">Home</NavLink></li>
+        <li><NavLink className='text-lg' to="/statistics">Statistics</NavLink></li>
+        <li><NavLink className='text-lg' to="/dashboard">Dashboard</NavLink></li>
     </>
     const location = useLocation()
     const homepath = location.pathname === '/'
     return (
-        <div className={homepath ? 'navbar bg-purple-700 text-white lg:px-10 rounded-tr-xl rounded-tl-xl' : 'navbar bg-base'}>
+        <div className="navbar">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -32,21 +31,23 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content text-black bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                         {link}
                     </ul>
                 </div>
-                <a className="font-bold text-xl lg:text-2xl">Gadget Heaven</a>
+                <a className="btn btn-ghost text-2xl">Gadget Heaven</a>
             </div>
-            <div className="navbar-center hidden text-lg font-medium gap-x-4  lg:flex">
-                {link}
+            <div className="navbar-center hidden lg:flex">
+                <ul className="menu menu-horizontal px-1">
+                    {link}
+                </ul>
             </div>
-            <div className="navbar-end space-x-3 ">
+            <div className="navbar-end space-x-3">
                 <div className='rounded-full border border-gray-400 text-black bg-white p-2'>
-                    <TiShoppingCart/>
+                    <TiShoppingCart />
                 </div>
                 <div className='rounded-full border border-gray-400 text-black bg-white p-2'>
-                    <FaRegHeart/>
+                    <FaRegHeart />
                 </div>
             </div>
         </div>
@@ -54,3 +55,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

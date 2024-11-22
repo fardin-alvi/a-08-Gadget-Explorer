@@ -1,25 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import { FaStar } from "react-icons/fa";
 import { CiStar } from "react-icons/ci";
-import { FaRegHeart } from "react-icons/fa";
+import { FaRegHeart, FaHeart } from "react-icons/fa";
 import BannerText from './bannerText';
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { addTocartList, addStoreWishlist } from '../Utilities/AddtoCart';
 import { ToastContainer, toast, Bounce } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Footer from './Footer';
+import Navbar from './Navbar/Navbar';
+import { Helmet } from 'react-helmet-async';
 
 const GadgetsDetails = () => {
+    const [wishlist, setwishlist] = useState(false)
     const { product_id } = useParams()
     const loader = useLoaderData()
     const gadgets = loader.find(gadget => gadget?.product_id == product_id)
-    const { product_title, product_image, category, price, description, Specification, availability, rating, } = gadgets;
+    const { product_title, product_image, category, price, description, Specification, availability, rating } = gadgets;
 
     const handleCart = (id) => {
         addTocartList(id)
     }
     const handlewish = (id) =>{
         addStoreWishlist(id)
+        setwishlist(true)
+        showToastwhis()
     }
     const showToast = () => {
         toast.success('Iteam added to Cart', {
@@ -49,6 +55,12 @@ const GadgetsDetails = () => {
     } 
     return (
         <div>
+            <Helmet>
+                <title>{category} | {product_id}</title>
+            </Helmet>
+            <header className='w-11/12 mx-auto'>
+                <Navbar/>
+            </header>
             <div className="min-h-[300px] min-w-full  lg:min-h-[300px] bg-purple-700 rounded-bl-xl rounded-br-xl">
                 <BannerText title={'Product Details'} subtitle={'Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!'} />
             </div>
@@ -94,10 +106,15 @@ const GadgetsDetails = () => {
                         />
                         <div className='mt-1 flex gap-x-2 items-center'>
                             <button onClick={() => { handleCart(product_id); showToast(); }} className='px-3 py-1 flex items-center gap-x-1 text-white text-sm font-semibold bg-purple-500 rounded-2xl'>Add To Card<AiOutlineShoppingCart className='text-lg' /></button>
-                            <FaRegHeart onClick={() => { handlewish(product_id); showToastwhis();}} className='text-3xl border border-gray-300 rounded-full p-2' />
+                            {
+                                wishlist ? <FaRegHeart className='text-3xl border border-gray-300 rounded-full p-2 disabled:'/> : <FaRegHeart onClick={() => handlewish(product_id)} className='text-3xl border border-gray-300 rounded-full p-2 cursor-pointer' />
+                            }
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='mt-10'>
+                <Footer/>
             </div>
         </div>
     );
