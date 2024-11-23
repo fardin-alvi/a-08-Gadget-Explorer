@@ -16,9 +16,6 @@ const WhislisGadget = ({ gadget }) => {
                     <button className='border-2 font-semibold bg-purple-500 py-1 px-3 text-white rounded-2xl'>Add to Cart</button>
                 </div>
             </div>
-            <div className='border-1 p-5 rounded-full text-red-500'>
-                <TiDeleteOutline className='text-4xl' />
-            </div>
         </div>
     );
 };
