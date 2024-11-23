@@ -7,7 +7,8 @@ A React-based application designed for gadget to explore and interact with gadge
 https://gadget-explorer.netlify.app/
 
 ## Requirement Document  
-*(Provide the requirement document link here.)*
+
+https://drive.google.com/file/d/1vTp4Pd5PJCd-3LAK5InELYYdM45widKX/view?usp=sharing
 
 ## React Fundamentals Used
 
@@ -18,13 +19,13 @@ https://gadget-explorer.netlify.app/
 
 ## Data Handling and Management 
 
-- *JSON FIle*
-- *Local Storage*
+- **JSON FIle**
+- **Local Storage**
 
 ## Key Features
 
-1. *Allows users to filter gadgets.*  
-2. *User can experience an smooth web view.*  
-3. *Provide detailed information for each gadget.*  
-4. *Users can added iteam into Cart for future purchasd.*  
+1. **Allows users to filter gadgets.**  
+2. **User can experience an smooth web view.** 
+3. **Provide detailed information for each gadget.** 
+4. **Users can added iteam into Cart for future purchasd.**
 ---
