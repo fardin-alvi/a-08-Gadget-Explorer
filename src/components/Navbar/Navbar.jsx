@@ -7,6 +7,7 @@ const Navbar = () => {
     const link = <>
         <li><NavLink className='text-lg' to="/">Home</NavLink></li>
         <li><NavLink className='text-lg' to="/statistics">Statistics</NavLink></li>
+        <li><NavLink className='text-lg' to="/deals">Deals & Offers</NavLink></li>
         <li><NavLink className='text-lg' to="/dashboard">Dashboard</NavLink></li>
     </>
     const location = useLocation()

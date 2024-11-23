@@ -22,7 +22,7 @@ const Statistics = () => {
             <header className='w-11/12 mx-auto'>
                 <Navbar/>
             </header>
-            <div className="min-h-[300px] mt-3 lg:min-h-[280px] bg-purple-700 relative rounded-bl-xl rounded-br-xl">
+            <div className="min-h-[300px] mt-3 lg:min-h-[280px] bg-purple-700 relative">
                 <BannerText title={'Statistics'} subtitle={'The price of innovation is best understood when paired with the name that defines it , clear comparison: the story of gadgets unfolds where names meet their value !'} />
             </div>
             <p className='text-2xl font-semibold my-4 md:ml-10'>Statistics</p>

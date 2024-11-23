@@ -5,6 +5,7 @@ import Dashboard from "../pages/Dashboard"
 import GadgetsDetails from "../components/GadgetsDetails"
 import ErrorPage from "../pages/ErrorPage"
 import FilterCard from "../components/Filtercard"
+import DealsOffers from "../pages/DealsOffers"
 
 const routes = createBrowserRouter([
     {
@@ -40,6 +41,11 @@ const routes = createBrowserRouter([
         path: "dashboard",
         element: <Dashboard />,
         loader: () => fetch('/Gadgets.json')
+    },
+    {
+        path: 'deals',
+        element: <DealsOffers />,
+        loader:()=> fetch('Gadgets.json')
     }
 ])
 export default routes

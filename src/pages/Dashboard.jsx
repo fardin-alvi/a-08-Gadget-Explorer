@@ -70,7 +70,7 @@ const Dashboard = () => {
             <header className='w-10/12 mx-auto'>
                 <Navbar/>
             </header>
-            <div className="min-h-[300px] lg:min-h-[300px] bg-purple-700 relative rounded-bl-xl rounded-br-xl">
+            <div className="min-h-[300px] lg:min-h-[300px] bg-purple-700 relative">
                 <BannerText title={'Dashboad'} subtitle={'Our Gadget Store offers a seamless shopping experience with easy access to your cart and wishlist , Stay organized and keep track of your desired gadgets all in one convenient place!'} />
                 <div className='flex gap-x-2 justify-center items-center mt-3'>
                     <button id='cart' onClick={() => { setActive('cart')}} className='border-1 py-1 px-4 bg-white rounded-2xl'>Cart</button>
