@@ -44,6 +44,7 @@ const Dashboard = () => {
     },[cartlist])
 
     const handlemodal = () => {
+        localStorage.clear()
         setCartlist([])
         setcalculateprice(0)
         navigate('/')
