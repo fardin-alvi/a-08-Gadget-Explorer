@@ -7,6 +7,7 @@ import WhislistGadget from '../components/WhislistGadget';
 import modalimage from '../assets/Group.png'
 import Navbar from '../components/Navbar/Navbar';
 import { Helmet } from 'react-helmet-async';
+import Footer from '../components/Footer';
 
 
 const Dashboard = () => {
@@ -94,6 +95,9 @@ const Dashboard = () => {
                     }
                 </div>
             </div>
+            <footer className='mt-5'>
+                <Footer/>
+            </footer>
         </div>
     );
 };
