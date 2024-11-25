@@ -4,6 +4,7 @@ import BannerText from '../components/bannerText';
 import Footer from '../components/Footer';
 import { useLoaderData } from 'react-router-dom';
 import { ComposedChart,Bar,Area,Scatter, XAxis, YAxis, Tooltip, Legend,ResponsiveContainer} from "recharts";
+import { Helmet } from 'react-helmet-async';
 
 const Statistics = () => {
     const product = useLoaderData()
@@ -19,6 +20,9 @@ const Statistics = () => {
     console.log(mapdata);
     return (
         <div>
+            <Helmet>
+                <title>Statistics</title>
+            </Helmet>
             <header className='w-11/12 mx-auto'>
                 <Navbar/>
             </header>

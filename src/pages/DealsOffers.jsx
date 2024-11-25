@@ -4,6 +4,7 @@ import BannerText from '../components/bannerText';
 import { Link, useLoaderData } from 'react-router-dom';
 import DealsCard from '../components/DealsCard';
 import Footer from '../components/Footer';
+import { Helmet } from 'react-helmet-async';
 
 const DealsOffers = () => {
     const data = useLoaderData()
@@ -14,6 +15,9 @@ const DealsOffers = () => {
     }, [])
     return (
         <div>
+            <Helmet>
+                <title>Deals & Offer</title>
+            </Helmet>
             <header className='w-11/12 mx-auto'>
                 <Navbar/>
             </header>
