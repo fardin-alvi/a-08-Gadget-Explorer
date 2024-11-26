@@ -8,7 +8,7 @@
     "price": 1200,
     "description": "Dell XPS 13 is a high-performance laptop with a stunning 13.3-inch display and Intel Core i7 processor.",
     "Specification": ["Intel Core i7", "16GB RAM", "512GB SSD", "13.3-inch display"],
-    "availability": true,
+    "availability": "In Stoke",
     "rating": 4.8
   },
   {
@@ -32,7 +32,7 @@
     "price": 1400,
     "description": "HP Spectre x360 2-in-1 laptop with a 4K touchscreen and a sleek design.",
     "Specification": ["Intel Core i7", "16GB RAM", "512GB SSD", "13.3-inch 4K Display"],
-    "availability": true,
+    "availability":  "In Stoke",
     "rating": 4.7
   },
   {
@@ -44,7 +44,7 @@
     "price": 1800,
     "description": "Lenovo ThinkPad X1 Carbon is a business laptop with long battery life and strong performance.",
     "Specification": ["Intel Core i7", "16GB RAM", "1TB SSD", "14-inch FHD Display"],
-    "availability": false,
+    "availability": "Out of Stoke",
     "rating": 4.5
   },
   {
@@ -56,7 +56,7 @@
     "price": 1100,
     "description": "Asus ZenBook 14 is a thin and lightweight laptop with powerful performance.",
     "Specification": ["Intel Core i5", "8GB RAM", "256GB SSD", "14-inch FHD Display"],
-    "availability": true,
+    "availability":  "In Stoke",
     "rating": 4.6
   },
   {
@@ -65,10 +65,10 @@
     "product_title": "IdeaPad Slim 3i",
     "product_image": "https://i.ibb.co.com/8xycfsv/Idea-Pad-Slim-3i.jpg",
     "category": "Laptop",
-    "price": 899.99,
+    "price": 899,
     "description": "Lightweight and powerful, perfect for everyday use.",
     "Specification": ["AMD Ryzen 5", "4GB RAM", "1 TB SSD", "13.3-inch Retina display"],
-    "availability": true,
+    "availability":  "In Stoke",
     "rating": 4.6
   },
   {
@@ -80,7 +80,7 @@
     "price": 999,
     "description": "Apple iPhone 13 Pro with A15 Bionic chip, 5G, and a Pro camera system.",
     "Specification": ["A15 Bionic Chip", "128GB Storage", "6.1-inch Super Retina XDR Display"],
-    "availability": true,
+    "availability": "Out of Stoke",
     "rating": 4.9
   },
   {
@@ -92,7 +92,7 @@
     "price": 799,
     "description": "Samsung Galaxy S21 with Exynos 2100, 5G connectivity, and a 120Hz display.",
     "Specification": ["Exynos 2100", "128GB Storage", "6.2-inch Dynamic AMOLED Display"],
-    "availability": false,
+    "availability": "Out of Stoke",
     "rating": 4.6
   },
   {
@@ -116,7 +116,7 @@
     "price": 499,
     "description": "Apple Watch Series 7 with advanced health tracking and a larger display.",
     "Specification": ["Blood Oxygen Sensor", "ECG", "GPS", "Always-On Retina Display"],
-    "availability": true,
+    "availability":  "In Stoke",
     "rating": 4.8
   },
   {
@@ -128,7 +128,7 @@
     "price": 349,
     "description": "Samsung Galaxy Watch 4 offers advanced fitness tracking and Wear OS.",
     "Specification": ["Heart Rate Monitor", "Sleep Tracking", "GPS", "AMOLED Display"],
-    "availability": false,
+    "availability":  "In Stoke",
     "rating": 4.6
   },
   {
@@ -137,10 +137,10 @@
     "product_title": "Fitbit Charge 5",
     "product_image": "https://i.ibb.co.com/6H9QPd6/Fitbit-Charge-5.jpg",
     "category": "Smart-Watch",
-    "price": 179.99,
+    "price": 179,
     "description": "Advanced fitness tracker with built-in GPS.",
     "Specification": ["Heart rate monitoring", "Stress management tools", "Water-resistant"],
-    "availability": true,
+    "availability": "In Stoke",
     "rating": 4.4
   },
   {
@@ -152,7 +152,7 @@
     "price": 1099,
     "description": "Apple iPad Pro with M1 chip, a 12.9-inch Liquid Retina XDR display, and 5G support.",
     "Specification": ["M1 Chip", "256GB Storage", "12.9-inch Display", "5G Support"],
-    "availability": true,
+    "availability":  "In Stoke",
     "rating": 4.9
   },
   {
@@ -164,7 +164,7 @@
     "price": 699,
     "description": "Samsung Galaxy Tab S7 offers a high-quality display and powerful performance for multitasking.",
     "Specification": ["Snapdragon 865+", "128GB Storage", "11-inch LTPS Display", "5G Support"],
-    "availability": true,
+    "availability": "Out of Stoke",
     "rating": 4.7
   },
   {
@@ -176,7 +176,7 @@
     "price": 799,
     "description": "Lenovo Tab P11 Pro features a 11.5-inch OLED display and Dolby Atmos speakers for immersive entertainment.",
     "Specification": ["Snapdragon 730G", "128GB Storage", "11.5-inch OLED Display", "Dolby Atmos Speakers"],
-    "availability": true,
+    "availability":  "In Stoke",
     "rating": 4.6
   },
   {
@@ -185,7 +185,7 @@
     "product_title": "Wireless Bluetooth Earbuds",
     "product_image": "https://i.ibb.co.com/b3vP4Vg/gd1.jpg",
     "category": "Accessories",
-    "price": 59.99,
+    "price": 59,
     "description": "Compact and lightweight wireless Bluetooth earbuds with high-fidelity sound quality and noise cancellation.",
     "Specification": [
       "Bluetooth 5.0",
@@ -193,7 +193,7 @@
       "4 hours playback per charge",
       "Charging case with 20 hours battery life"
     ],
-    "availability": true,
+    "availability":  "In Stoke",
     "rating": 4.5
   },
   {
@@ -202,7 +202,7 @@
     "product_title": "Fast Charging Power Bank 20000mAh",
     "product_image": "https://i.ibb.co.com/bgNM0dz/gd2.jpg",
     "category": "Accessories",
-    "price": 39.99,
+    "price": 78,
     "description": "High-capacity power bank with dual USB outputs and fast charging support for all your devices.",
     "Specification": [
       "20000mAh capacity",
@@ -210,7 +210,7 @@
       "LED battery indicator",
       "Overcharge and short circuit protection"
     ],
-    "availability": true,
+    "availability":  "In Stoke",
     "rating": 4.8
   },
   {
@@ -219,7 +219,7 @@
     "product_title": "Universal Laptop Stand",
     "product_image": "https://i.ibb.co.com/GtzDHvK/gd3.jpg",
     "category": "Accessories",
-    "price": 29.99,
+    "price": 54,
     "description": "Sturdy and adjustable laptop stand designed to improve ergonomics and reduce neck strain.",
     "Specification": [
       "Aluminum alloy build",
@@ -227,7 +227,7 @@
       "Non-slip silicone pads",
       "Compatible with laptops up to 15.6 inches"
     ],
-    "availability": false,
+    "availability": "Out of Stoke",
     "rating": 4.3
   }
 ]

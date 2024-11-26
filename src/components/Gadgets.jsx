@@ -17,7 +17,7 @@ const Gadgets = ({ gadget }) => {
             </figure>
             <div className="card-body text-left">
                 <h2 className='font-semibold text-xl'>{product_title}</h2>
-                <p className='text-gray-500'>Price: {price}</p>
+                <p className='text-gray-500'>Price: {price}$</p>
                 <div className="card-actions">
                     <Link to={`/gadgets/${product_id}`} className="border-2 border-purple-200 rounded-2xl py-1 px-3 text-purple-500">View details</Link>
                 </div>
