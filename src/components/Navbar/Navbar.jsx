@@ -3,15 +3,12 @@ import { NavLink, useLocation } from 'react-router-dom';
 import { TiShoppingCart } from "react-icons/ti";
 import { FaRegHeart } from "react-icons/fa"; 
 const Navbar = () => {
-    const navLocation = useLocation()
     const link = <>
-        <li><NavLink className='text-lg' to="/">Home</NavLink></li>
-        <li><NavLink className='text-lg' to="/statistics">Statistics</NavLink></li>
-        <li><NavLink className='text-lg' to="/deals">Deals & Offers</NavLink></li>
-        <li><NavLink className='text-lg' to="/dashboard">Dashboard</NavLink></li>
+        <li><NavLink className={({ isActive }) => `text-lg px-4 py-2 rounded-md ${isActive ? 'bg-purple-700 text-white' : ''}`} to="/">Home</NavLink></li>
+        <li><NavLink className={({ isActive }) => `text-lg px-4 py-2 rounded-md ${isActive ? 'bg-purple-700 text-white' : ''}`} to="/statistics">Statistics</NavLink></li>
+        <li><NavLink className={({ isActive }) => `text-lg px-4 py-2 rounded-md ${isActive ? 'bg-purple-700 text-white' : ''}`} to="/deals">Deals & Offers</NavLink></li>
+        <li><NavLink className={({ isActive }) => `text-lg px-4 py-2 rounded-md ${isActive ? 'bg-purple-700 text-white' : ''}`} to="/dashboard">Dashboard</NavLink></li>
     </>
-    const location = useLocation()
-    const homepath = location.pathname === '/'
     return (
         <div className="navbar">
             <div className="navbar-start">
